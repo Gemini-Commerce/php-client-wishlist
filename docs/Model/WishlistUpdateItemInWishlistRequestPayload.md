@@ -1,0 +1,14 @@
+# # WishlistUpdateItemInWishlistRequestPayload
+
+
+## Properties
+
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**preferred_quantity**| **string** |   | [optional]
+**description**| [**\GeminiCommerce\Wishlist\Model\WishlistLocalizedText**](WishlistLocalizedText.md) |   | [optional]
+**customer_grn**| **string** |   | [optional]
+
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
