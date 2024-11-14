@@ -1,7 +1,7 @@
 # # WishlistAddItemToWishlistRequest
 
 
-## Properties
+## Properties 
 
 
 Name | Type | Description | Notes
@@ -10,8 +10,9 @@ Name | Type | Description | Notes
 **wishlist_id**| **string** |   |
 **item_grn**| **string** |   |
 **preferred_quantity**| **string** |   | [optional]
-**description**| [**\GeminiCommerce\Wishlist\Model\WishlistLocalizedText**](WishlistLocalizedText.md) |   | [optional]
+**description**| [**\OpenAPI\Client\Model\WishlistLocalizedText**](WishlistLocalizedText.md) |   | [optional]
 **customer_grn**| **string** |   | [optional]
 
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
+

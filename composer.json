@@ -1,5 +1,5 @@
 {
-    "version": "1.2.0",
+    "name": "gemini-commerce/php-client-wishlist",
     "description": "API for managing wishlists",
     "keywords": [
         "openapitools",
@@ -11,7 +11,7 @@
         "api"
     ],
     "homepage": "https://openapi-generator.tech",
-    "license": "AGPL-3.0",
+    "license": "unlicense",
     "authors": [
         {
             "name": "OpenAPI",
@@ -31,9 +31,9 @@
         "friendsofphp/php-cs-fixer": "^3.5"
     },
     "autoload": {
-        "psr-4": { "GeminiCommerce\\Wishlist\\" : "lib/" }
+        "psr-4": { "OpenAPI\\Client\\" : "lib/" }
     },
     "autoload-dev": {
-        "psr-4": { "GeminiCommerce\\Wishlist\\Test\\" : "test/" }
+        "psr-4": { "OpenAPI\\Client\\Test\\" : "test/" }
     }
 }

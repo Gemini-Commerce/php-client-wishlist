@@ -1,4 +1,4 @@
-# GeminiCommerce\Wishlist\WishlistApi
+# OpenAPI\Client\WishlistApi
 
 All URIs are relative to https://wishlist.api.gogemini.io, except if the operation defines another base path.
 
@@ -25,7 +25,7 @@ All URIs are relative to https://wishlist.api.gogemini.io, except if the operati
 ## `wishlistAddItemToWishlist()`
 
 ```php
-wishlistAddItemToWishlist($body): \GeminiCommerce\Wishlist\Model\WishlistWishlistItemResponse
+wishlistAddItemToWishlist($body): \OpenAPI\Client\Model\WishlistWishlistItemResponse
 ```
 
 
@@ -38,18 +38,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistAddItemToWishlistRequest(); // \GeminiCommerce\Wishlist\Model\WishlistAddItemToWishlistRequest
+$body = new \OpenAPI\Client\Model\WishlistAddItemToWishlistRequest(); // \OpenAPI\Client\Model\WishlistAddItemToWishlistRequest
 
 try {
     $result = $apiInstance->wishlistAddItemToWishlist($body);
@@ -63,11 +63,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistAddItemToWishlistRequest**](../Model/WishlistAddItemToWishlistRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistAddItemToWishlistRequest**](../Model/WishlistAddItemToWishlistRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Wishlist\Model\WishlistWishlistItemResponse**](../Model/WishlistWishlistItemResponse.md)
+[**\OpenAPI\Client\Model\WishlistWishlistItemResponse**](../Model/WishlistWishlistItemResponse.md)
 
 ### Authorization
 
@@ -85,7 +85,7 @@ try {
 ## `wishlistAreItemsInWishlists()`
 
 ```php
-wishlistAreItemsInWishlists($body): \GeminiCommerce\Wishlist\Model\WishlistAreItemsInWishlistsResponse
+wishlistAreItemsInWishlists($body): \OpenAPI\Client\Model\WishlistAreItemsInWishlistsResponse
 ```
 
 
@@ -98,18 +98,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistAreItemsInWishlistsRequest(); // \GeminiCommerce\Wishlist\Model\WishlistAreItemsInWishlistsRequest
+$body = new \OpenAPI\Client\Model\WishlistAreItemsInWishlistsRequest(); // \OpenAPI\Client\Model\WishlistAreItemsInWishlistsRequest
 
 try {
     $result = $apiInstance->wishlistAreItemsInWishlists($body);
@@ -123,11 +123,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistAreItemsInWishlistsRequest**](../Model/WishlistAreItemsInWishlistsRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistAreItemsInWishlistsRequest**](../Model/WishlistAreItemsInWishlistsRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Wishlist\Model\WishlistAreItemsInWishlistsResponse**](../Model/WishlistAreItemsInWishlistsResponse.md)
+[**\OpenAPI\Client\Model\WishlistAreItemsInWishlistsResponse**](../Model/WishlistAreItemsInWishlistsResponse.md)
 
 ### Authorization
 
@@ -145,7 +145,7 @@ try {
 ## `wishlistBulkCreateSharing()`
 
 ```php
-wishlistBulkCreateSharing($body): \GeminiCommerce\Wishlist\Model\WishlistBulkCreateSharingResponse
+wishlistBulkCreateSharing($body): \OpenAPI\Client\Model\WishlistBulkCreateSharingResponse
 ```
 
 Sharing endpoints
@@ -158,18 +158,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistBulkCreateSharingRequest(); // \GeminiCommerce\Wishlist\Model\WishlistBulkCreateSharingRequest
+$body = new \OpenAPI\Client\Model\WishlistBulkCreateSharingRequest(); // \OpenAPI\Client\Model\WishlistBulkCreateSharingRequest
 
 try {
     $result = $apiInstance->wishlistBulkCreateSharing($body);
@@ -183,11 +183,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistBulkCreateSharingRequest**](../Model/WishlistBulkCreateSharingRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistBulkCreateSharingRequest**](../Model/WishlistBulkCreateSharingRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Wishlist\Model\WishlistBulkCreateSharingResponse**](../Model/WishlistBulkCreateSharingResponse.md)
+[**\OpenAPI\Client\Model\WishlistBulkCreateSharingResponse**](../Model/WishlistBulkCreateSharingResponse.md)
 
 ### Authorization
 
@@ -218,18 +218,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistBulkRemoveItemsFromWishlistsRequest(); // \GeminiCommerce\Wishlist\Model\WishlistBulkRemoveItemsFromWishlistsRequest
+$body = new \OpenAPI\Client\Model\WishlistBulkRemoveItemsFromWishlistsRequest(); // \OpenAPI\Client\Model\WishlistBulkRemoveItemsFromWishlistsRequest
 
 try {
     $result = $apiInstance->wishlistBulkRemoveItemsFromWishlists($body);
@@ -243,7 +243,7 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistBulkRemoveItemsFromWishlistsRequest**](../Model/WishlistBulkRemoveItemsFromWishlistsRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistBulkRemoveItemsFromWishlistsRequest**](../Model/WishlistBulkRemoveItemsFromWishlistsRequest.md)|  | |
 
 ### Return type
 
@@ -278,18 +278,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistBulkRevokeSharingRequest(); // \GeminiCommerce\Wishlist\Model\WishlistBulkRevokeSharingRequest
+$body = new \OpenAPI\Client\Model\WishlistBulkRevokeSharingRequest(); // \OpenAPI\Client\Model\WishlistBulkRevokeSharingRequest
 
 try {
     $result = $apiInstance->wishlistBulkRevokeSharing($body);
@@ -303,7 +303,7 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistBulkRevokeSharingRequest**](../Model/WishlistBulkRevokeSharingRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistBulkRevokeSharingRequest**](../Model/WishlistBulkRevokeSharingRequest.md)|  | |
 
 ### Return type
 
@@ -325,7 +325,7 @@ try {
 ## `wishlistCreateWishlist()`
 
 ```php
-wishlistCreateWishlist($body): \GeminiCommerce\Wishlist\Model\WishlistWishlistResponse
+wishlistCreateWishlist($body): \OpenAPI\Client\Model\WishlistWishlistResponse
 ```
 
 
@@ -338,18 +338,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistCreateWishlistRequest(); // \GeminiCommerce\Wishlist\Model\WishlistCreateWishlistRequest
+$body = new \OpenAPI\Client\Model\WishlistCreateWishlistRequest(); // \OpenAPI\Client\Model\WishlistCreateWishlistRequest
 
 try {
     $result = $apiInstance->wishlistCreateWishlist($body);
@@ -363,11 +363,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistCreateWishlistRequest**](../Model/WishlistCreateWishlistRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistCreateWishlistRequest**](../Model/WishlistCreateWishlistRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Wishlist\Model\WishlistWishlistResponse**](../Model/WishlistWishlistResponse.md)
+[**\OpenAPI\Client\Model\WishlistWishlistResponse**](../Model/WishlistWishlistResponse.md)
 
 ### Authorization
 
@@ -398,18 +398,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistDeleteWishlistRequest(); // \GeminiCommerce\Wishlist\Model\WishlistDeleteWishlistRequest
+$body = new \OpenAPI\Client\Model\WishlistDeleteWishlistRequest(); // \OpenAPI\Client\Model\WishlistDeleteWishlistRequest
 
 try {
     $result = $apiInstance->wishlistDeleteWishlist($body);
@@ -423,7 +423,7 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistDeleteWishlistRequest**](../Model/WishlistDeleteWishlistRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistDeleteWishlistRequest**](../Model/WishlistDeleteWishlistRequest.md)|  | |
 
 ### Return type
 
@@ -445,7 +445,7 @@ try {
 ## `wishlistGetItemFromWishlist()`
 
 ```php
-wishlistGetItemFromWishlist($body): \GeminiCommerce\Wishlist\Model\WishlistWishlistItemResponse
+wishlistGetItemFromWishlist($body): \OpenAPI\Client\Model\WishlistWishlistItemResponse
 ```
 
 
@@ -458,18 +458,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistGetItemFromWishlistRequest(); // \GeminiCommerce\Wishlist\Model\WishlistGetItemFromWishlistRequest
+$body = new \OpenAPI\Client\Model\WishlistGetItemFromWishlistRequest(); // \OpenAPI\Client\Model\WishlistGetItemFromWishlistRequest
 
 try {
     $result = $apiInstance->wishlistGetItemFromWishlist($body);
@@ -483,11 +483,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistGetItemFromWishlistRequest**](../Model/WishlistGetItemFromWishlistRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistGetItemFromWishlistRequest**](../Model/WishlistGetItemFromWishlistRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Wishlist\Model\WishlistWishlistItemResponse**](../Model/WishlistWishlistItemResponse.md)
+[**\OpenAPI\Client\Model\WishlistWishlistItemResponse**](../Model/WishlistWishlistItemResponse.md)
 
 ### Authorization
 
@@ -505,7 +505,7 @@ try {
 ## `wishlistGetWishlistById()`
 
 ```php
-wishlistGetWishlistById($body): \GeminiCommerce\Wishlist\Model\WishlistWishlistResponse
+wishlistGetWishlistById($body): \OpenAPI\Client\Model\WishlistWishlistResponse
 ```
 
 
@@ -518,18 +518,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistGetWishlistByIdRequest(); // \GeminiCommerce\Wishlist\Model\WishlistGetWishlistByIdRequest
+$body = new \OpenAPI\Client\Model\WishlistGetWishlistByIdRequest(); // \OpenAPI\Client\Model\WishlistGetWishlistByIdRequest
 
 try {
     $result = $apiInstance->wishlistGetWishlistById($body);
@@ -543,11 +543,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistGetWishlistByIdRequest**](../Model/WishlistGetWishlistByIdRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistGetWishlistByIdRequest**](../Model/WishlistGetWishlistByIdRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Wishlist\Model\WishlistWishlistResponse**](../Model/WishlistWishlistResponse.md)
+[**\OpenAPI\Client\Model\WishlistWishlistResponse**](../Model/WishlistWishlistResponse.md)
 
 ### Authorization
 
@@ -565,7 +565,7 @@ try {
 ## `wishlistGetWishlistBySharedCode()`
 
 ```php
-wishlistGetWishlistBySharedCode($body): \GeminiCommerce\Wishlist\Model\WishlistWishlistResponse
+wishlistGetWishlistBySharedCode($body): \OpenAPI\Client\Model\WishlistWishlistResponse
 ```
 
 
@@ -578,18 +578,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistGetWishlistBySharedCodeRequest(); // \GeminiCommerce\Wishlist\Model\WishlistGetWishlistBySharedCodeRequest
+$body = new \OpenAPI\Client\Model\WishlistGetWishlistBySharedCodeRequest(); // \OpenAPI\Client\Model\WishlistGetWishlistBySharedCodeRequest
 
 try {
     $result = $apiInstance->wishlistGetWishlistBySharedCode($body);
@@ -603,11 +603,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistGetWishlistBySharedCodeRequest**](../Model/WishlistGetWishlistBySharedCodeRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistGetWishlistBySharedCodeRequest**](../Model/WishlistGetWishlistBySharedCodeRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Wishlist\Model\WishlistWishlistResponse**](../Model/WishlistWishlistResponse.md)
+[**\OpenAPI\Client\Model\WishlistWishlistResponse**](../Model/WishlistWishlistResponse.md)
 
 ### Authorization
 
@@ -625,7 +625,7 @@ try {
 ## `wishlistListWishlistItems()`
 
 ```php
-wishlistListWishlistItems($body): \GeminiCommerce\Wishlist\Model\WishlistListWishlistItemsResponse
+wishlistListWishlistItems($body): \OpenAPI\Client\Model\WishlistListWishlistItemsResponse
 ```
 
 
@@ -638,18 +638,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistListWishlistItemsRequest(); // \GeminiCommerce\Wishlist\Model\WishlistListWishlistItemsRequest
+$body = new \OpenAPI\Client\Model\WishlistListWishlistItemsRequest(); // \OpenAPI\Client\Model\WishlistListWishlistItemsRequest
 
 try {
     $result = $apiInstance->wishlistListWishlistItems($body);
@@ -663,11 +663,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistListWishlistItemsRequest**](../Model/WishlistListWishlistItemsRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistListWishlistItemsRequest**](../Model/WishlistListWishlistItemsRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Wishlist\Model\WishlistListWishlistItemsResponse**](../Model/WishlistListWishlistItemsResponse.md)
+[**\OpenAPI\Client\Model\WishlistListWishlistItemsResponse**](../Model/WishlistListWishlistItemsResponse.md)
 
 ### Authorization
 
@@ -685,7 +685,7 @@ try {
 ## `wishlistListWishlists()`
 
 ```php
-wishlistListWishlists($body): \GeminiCommerce\Wishlist\Model\WishlistListWishlistsResponse
+wishlistListWishlists($body): \OpenAPI\Client\Model\WishlistListWishlistsResponse
 ```
 
 
@@ -698,18 +698,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistListWishlistsRequest(); // \GeminiCommerce\Wishlist\Model\WishlistListWishlistsRequest
+$body = new \OpenAPI\Client\Model\WishlistListWishlistsRequest(); // \OpenAPI\Client\Model\WishlistListWishlistsRequest
 
 try {
     $result = $apiInstance->wishlistListWishlists($body);
@@ -723,11 +723,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistListWishlistsRequest**](../Model/WishlistListWishlistsRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistListWishlistsRequest**](../Model/WishlistListWishlistsRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Wishlist\Model\WishlistListWishlistsResponse**](../Model/WishlistListWishlistsResponse.md)
+[**\OpenAPI\Client\Model\WishlistListWishlistsResponse**](../Model/WishlistListWishlistsResponse.md)
 
 ### Authorization
 
@@ -745,7 +745,7 @@ try {
 ## `wishlistMergeWishlists()`
 
 ```php
-wishlistMergeWishlists($body): \GeminiCommerce\Wishlist\Model\WishlistWishlistResponse
+wishlistMergeWishlists($body): \OpenAPI\Client\Model\WishlistWishlistResponse
 ```
 
 
@@ -758,18 +758,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistMergeWishlistsRequest(); // \GeminiCommerce\Wishlist\Model\WishlistMergeWishlistsRequest
+$body = new \OpenAPI\Client\Model\WishlistMergeWishlistsRequest(); // \OpenAPI\Client\Model\WishlistMergeWishlistsRequest
 
 try {
     $result = $apiInstance->wishlistMergeWishlists($body);
@@ -783,11 +783,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistMergeWishlistsRequest**](../Model/WishlistMergeWishlistsRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistMergeWishlistsRequest**](../Model/WishlistMergeWishlistsRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Wishlist\Model\WishlistWishlistResponse**](../Model/WishlistWishlistResponse.md)
+[**\OpenAPI\Client\Model\WishlistWishlistResponse**](../Model/WishlistWishlistResponse.md)
 
 ### Authorization
 
@@ -818,18 +818,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistRemoveItemFromWishlistRequest(); // \GeminiCommerce\Wishlist\Model\WishlistRemoveItemFromWishlistRequest
+$body = new \OpenAPI\Client\Model\WishlistRemoveItemFromWishlistRequest(); // \OpenAPI\Client\Model\WishlistRemoveItemFromWishlistRequest
 
 try {
     $result = $apiInstance->wishlistRemoveItemFromWishlist($body);
@@ -843,7 +843,7 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistRemoveItemFromWishlistRequest**](../Model/WishlistRemoveItemFromWishlistRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistRemoveItemFromWishlistRequest**](../Model/WishlistRemoveItemFromWishlistRequest.md)|  | |
 
 ### Return type
 
@@ -865,7 +865,7 @@ try {
 ## `wishlistUpdateItemInWishlist()`
 
 ```php
-wishlistUpdateItemInWishlist($body): \GeminiCommerce\Wishlist\Model\WishlistWishlistItemResponse
+wishlistUpdateItemInWishlist($body): \OpenAPI\Client\Model\WishlistWishlistItemResponse
 ```
 
 
@@ -878,18 +878,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistUpdateItemInWishlistRequest(); // \GeminiCommerce\Wishlist\Model\WishlistUpdateItemInWishlistRequest
+$body = new \OpenAPI\Client\Model\WishlistUpdateItemInWishlistRequest(); // \OpenAPI\Client\Model\WishlistUpdateItemInWishlistRequest
 
 try {
     $result = $apiInstance->wishlistUpdateItemInWishlist($body);
@@ -903,11 +903,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistUpdateItemInWishlistRequest**](../Model/WishlistUpdateItemInWishlistRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistUpdateItemInWishlistRequest**](../Model/WishlistUpdateItemInWishlistRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Wishlist\Model\WishlistWishlistItemResponse**](../Model/WishlistWishlistItemResponse.md)
+[**\OpenAPI\Client\Model\WishlistWishlistItemResponse**](../Model/WishlistWishlistItemResponse.md)
 
 ### Authorization
 
@@ -925,7 +925,7 @@ try {
 ## `wishlistUpdateWishlist()`
 
 ```php
-wishlistUpdateWishlist($body): \GeminiCommerce\Wishlist\Model\WishlistWishlistResponse
+wishlistUpdateWishlist($body): \OpenAPI\Client\Model\WishlistWishlistResponse
 ```
 
 
@@ -938,18 +938,18 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: Authorization
-$config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = GeminiCommerce\Wishlist\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
 
-$apiInstance = new GeminiCommerce\Wishlist\Api\WishlistApi(
+$apiInstance = new OpenAPI\Client\Api\WishlistApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \GeminiCommerce\Wishlist\Model\WishlistUpdateWishlistRequest(); // \GeminiCommerce\Wishlist\Model\WishlistUpdateWishlistRequest
+$body = new \OpenAPI\Client\Model\WishlistUpdateWishlistRequest(); // \OpenAPI\Client\Model\WishlistUpdateWishlistRequest
 
 try {
     $result = $apiInstance->wishlistUpdateWishlist($body);
@@ -963,11 +963,11 @@ try {
 
 | Name | Type | Description  | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| **body** | [**\GeminiCommerce\Wishlist\Model\WishlistUpdateWishlistRequest**](../Model/WishlistUpdateWishlistRequest.md)|  | |
+| **body** | [**\OpenAPI\Client\Model\WishlistUpdateWishlistRequest**](../Model/WishlistUpdateWishlistRequest.md)|  | |
 
 ### Return type
 
-[**\GeminiCommerce\Wishlist\Model\WishlistWishlistResponse**](../Model/WishlistWishlistResponse.md)
+[**\OpenAPI\Client\Model\WishlistWishlistResponse**](../Model/WishlistWishlistResponse.md)
 
 ### Authorization
 
